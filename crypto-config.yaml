@@ -1,0 +1,37 @@
+
+OrdererOrgs:
+
+  - Name: Orderer
+    Domain: example.com
+
+    Specs:
+      - Hostname: orderer
+
+PeerOrgs:
+  - Name: Lordshire
+    Domain: Lordshire.example.com
+    Template:
+      Count: 1
+    Users:
+      Count: 1
+
+  - Name: Student
+    Domain: Student.example.com
+    Template:
+      Count: 1
+    Users:
+      Count: 1
+
+  - Name: College
+    Domain: College.example.com
+    Template:
+      Count: 1
+    Users:
+      Count: 1
+
+  - Name: Employer
+    Domain: Employer.example.com
+    Template:
+      Count: 1
+    Users:
+      Count: 1
